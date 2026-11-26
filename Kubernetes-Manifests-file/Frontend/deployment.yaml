@@ -31,6 +31,6 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
           - name: REACT_APP_BACKEND_URL
-            value: "http://13.232.89.26:30002/api/tasks"  # paste public ip of any node of k8s cluster      
+            value: "http://65.0.17.63:30002/api/tasks"  # paste public ip of any node of k8s cluster      
         ports:
         - containerPort: 3000
